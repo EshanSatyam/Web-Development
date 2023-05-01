@@ -11,7 +11,7 @@ body{
     height: 100vh;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(135deg,#05073a,#dc0606dc);
+    background: linear-gradient(135deg,#161bba,#ef4343dc);
     padding: 10px;
 }
 .container{
@@ -19,7 +19,7 @@ body{
     width: 100%;
     padding: 25px 30px;
     border-radius: 25px;
-    background: linear-gradient(135deg, #dc0606dc,#05073a);
+    background: linear-gradient(135deg, #7975c3dc,#0007ce);
 }
 .container .heading{
     font-size: 25px;
@@ -95,12 +95,20 @@ form .button input{
     font-weight: 500;
     border-radius: 5px;
     letter-spacing: 1px;
-    background: linear-gradient(135deg, #05073a,#dc0606dc);
+    background: linear-gradient(135deg, #20bcdf,#6d6fe8dc);
 
 }
 form .button input:hover {
-    background: linear-gradient(-135deg, #05073a,#dc0606dc);
+    background: linear-gradient(-135deg, #3c3c3f,#2868cfdc);
 }
+
+/* input[type="radio"] {
+    color: rgb(128, 32, 0);
+ } */
+
+ .category input{
+    color: #b315b8;
+ }
 
 
 
