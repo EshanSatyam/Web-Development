@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/all.css">
+    <title>REGISTRATION fORM</FORM></title>
+</head>
+<body>
+
+    <div class="container">
+        <div class="heading">Registration Form</div>
+        <form action="#">
+            <div class="card-details">
+                <div class="card-box">
+                   <span class="details">Full Name</span>
+                   <input type="text" placeholder="Enter Your name" required>
+                </div>
+                    <div class="card-box">
+                       <span class="details">Username</span>
+                       <input type="text" placeholder="Enter Your Username" required>
+                 </div>
+                    <div class="card-box">
+                       <span class="details">Email</span>
+                       <input type="email" placeholder="Enter Your Email" required>
+                 </div>
+                    <div class="card-box">
+                       <span class="details">Phone Number</span>
+                       <input type="tel" placeholder="Enter Your Phone Number" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required>
+                </div>
+                    <div class="card-box">
+                       <span class="details">Password</span>
+                       <input type="password" placeholder="Enter your Password" required>
+                </div>
+                    <div class="card-box">
+                       <span class="details">Confirm Password</span>
+                       <input type="pass" placeholder="Confirm Password" required>
+                </div>
+            </div>
+            <div class="circal-form">
+                <span class="circle-title">Gender</span>
+                <div class="category">
+                <input type="radio" name="gender">Male
+                <input type="radio" name="gender">Female
+                <input type="radio" name="gender">Prefer not to say
+            </div>
+            </div>
+            <div class="button">
+                <input type="submit" value="Register">
+            </div>
+        </form>
+    </div>
+    
+</body>
+</html>
